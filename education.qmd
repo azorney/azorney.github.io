@@ -3,8 +3,7 @@ title: "Education"
 ---
 
 ## Professional Science Master in Ecosystem Science & Sustainability
-**Colorado State University (Remote)**
-*Expected December 2026*
+**Colorado State University (Remote)** *Expected December 2026*
 
 - Relevant coursework:
   - Environmental Data Science Applications
@@ -14,8 +13,7 @@ title: "Education"
   - Modeling Watershed Hydrology
   
 ## Master of Science in Biology
-**Austin Peay State University - Clarksville, TN**  
-*May 2022* 
+**Austin Peay State University - Clarksville, TN** *May 2022* 
 
 - Relevant coursework:
   - Algal Ecology
@@ -27,8 +25,7 @@ title: "Education"
 ---
 
 ## Bachelor of Science in Biology
-**Eastern Michigan University - Ypsilanti, MI**  
-*April 2020*
+**Eastern Michigan University - Ypsilanti, MI** *April 2020*
 
 - Concentration: Ecology, Organismal Diversity, & Evolution
 - Minor: Zoology

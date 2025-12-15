@@ -4,8 +4,10 @@ title: "Publications, Talks, & Projects"
 
 ## Publications
 
-**Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., ***Zorney, A.***, & Atma, J.** (2022).  
-*Physical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.*  
+***Physical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee***
+
+Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., ***Zorney, A.***, & Atma, J. *Phytoneuron* (2022).  
+
 
 This study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll *a*, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.
 
@@ -14,9 +16,8 @@ This study evaluated the physical, chemical, and biological characteristics of L
 ---
 
 ## Invited Talks
-### Invited Workshop Speaker
-**Gaining Experience as an Undergraduate, Washtenaw Community College — Ann Arbor, MI**  
-*December 2025*
+### Workshop Speaker
+**Gaining Experience as an Undergraduate, Washtenaw Community College — Ann Arbor, MI** *December 2025*
 
 - Designed and delivered a workshop for undergraduate students focused on gaining research, fieldwork, and professional experience in biology and environmental science.
 - Shared strategies for identifying opportunities, building faculty relationships, and preparing for graduate study and environmental careers.
