@@ -1,7 +1,6 @@
 ---
----
-title: "Your Name"
-image: Glacier selfie.jpg
+title: "Anthony Zorney"
+image: photos/profile.jpg
 about:
   template: trestles
   image-shape: rounded
@@ -10,13 +9,21 @@ about:
     - text: LinkedIn
       href: https://www.linkedin.com/in/anthony-zorney/
     - text: Email
-      href: zorney.anthony@gmail.com
+      href: mailto:zorney.anthony@gmail.com
+    - text: Instagram
+      href: https://www.instagram.com/az_wildlife_photography
 ---
 
-This is a Quarto website.
+*Environmental biologist bridging ecological research, data analysis, and conservation practice.*
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**About me**
 
-```{r}
-1 + 1
-```
+I am an environmental biologist with a strong interest in connecting scientific research to practical conservation and ecosystem management. I hold a Master’s degree in Biology and have hands-on experience in both field and laboratory settings, including species identification, water quality assessment, habitat surveys, and ecological monitoring.
+
+My research background spans fish and salamander population studies, snake behavioral ecology, and freshwater quality analysis. These projects have strengthened my ability to design and carry out environmental assessments and translate data into meaningful insights for conservation and policy.
+
+Beyond research, I enjoy communicating science to a wide range of audiences and have experience presenting findings to students and community groups. I am seeking opportunities in environmental consulting, ecological research, and conservation initiatives where I can apply my skills to protecting biodiversity in collaborative, community-focused settings.
+
+------------------------------------------------------------------------
+
+*You can explore my academic background, professional experience, and fieldwork skills using the navigation above. A selection of my wildlife photography is also available.*

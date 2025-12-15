@@ -1,10 +1,73 @@
 [
   {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Field, Lab, Technical, & Communication Skills",
+    "section": "",
+    "text": "Species identification (fish, amphibians, reptiles, birds)\nFreshwater fish and macroinvertebrate sampling (electrofishing, kick nets, seines, dip nets)\nSalamander and snake capture, handling, measuring, sexing, and marking\nHabitat surveys and ecological monitoring\nMist netting for bats and birds\nCover board surveys for herpetofauna\nGPS-based field data collection\nField safety and environmental compliance"
+  },
+  {
+    "objectID": "skills.html#field-skills",
+    "href": "skills.html#field-skills",
+    "title": "Field, Lab, Technical, & Communication Skills",
+    "section": "",
+    "text": "Species identification (fish, amphibians, reptiles, birds)\nFreshwater fish and macroinvertebrate sampling (electrofishing, kick nets, seines, dip nets)\nSalamander and snake capture, handling, measuring, sexing, and marking\nHabitat surveys and ecological monitoring\nMist netting for bats and birds\nCover board surveys for herpetofauna\nGPS-based field data collection\nField safety and environmental compliance"
+  },
+  {
+    "objectID": "skills.html#laboratory-skills",
+    "href": "skills.html#laboratory-skills",
+    "title": "Field, Lab, Technical, & Communication Skills",
+    "section": "Laboratory Skills",
+    "text": "Laboratory Skills\n\nAlgal and diatom identification and analysis\nDiatom species assays\nSoft-algae species assays\nBenthic periphyton sampling and analysis\nWater quality analysis (dissolved oxygen, turbidity, chlorophyll a, nutrients)\nRapidocelis bioassays for water quality\nConfocal microscopy\nPCR and gel electrophoresis\nSample processing and quality control"
+  },
+  {
+    "objectID": "skills.html#data-analysis-technical-skills",
+    "href": "skills.html#data-analysis-technical-skills",
+    "title": "Field, Lab, Technical, & Communication Skills",
+    "section": "Data, Analysis & Technical Skills",
+    "text": "Data, Analysis & Technical Skills\n\nData analysis and visualization in R\nReproducible research with Quarto and R Markdown\nVersion control using Git and GitHub\nIntroductory GIS mapping and spatial analysis with ArcGIS Pro\nIntroductory ISO-compliant life cycle assessment (LCA)\nData organization and documentation\nFigure and infographic development"
+  },
+  {
+    "objectID": "skills.html#communication-education-skills",
+    "href": "skills.html#communication-education-skills",
+    "title": "Field, Lab, Technical, & Communication Skills",
+    "section": "Communication & Education Skills",
+    "text": "Communication & Education Skills\n\nScientific writing and peer-reviewed publication\nScience communication for non-technical audiences\nEnvironmental education and outreach\nInstructional design and laboratory teaching\nStudent mentoring and tutoring\nPresentation of technical information to community stakeholders"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "azorney",
+    "title": "Anthony Zorney",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Environmental biologist bridging ecological research, data analysis, and conservation practice.\nAbout me\nI am an environmental biologist with a strong interest in connecting scientific research to practical conservation and ecosystem management. I hold a Master’s degree in Biology and have hands-on experience in both field and laboratory settings, including species identification, water quality assessment, habitat surveys, and ecological monitoring.\nMy research background spans fish and salamander population studies, snake behavioral ecology, and freshwater quality analysis. These projects have strengthened my ability to design and carry out environmental assessments and translate data into meaningful insights for conservation and policy.\nBeyond research, I enjoy communicating science to a wide range of audiences and have experience presenting findings to students and community groups. I am seeking opportunities in environmental consulting, ecological research, and conservation initiatives where I can apply my skills to protecting biodiversity in collaborative, community-focused settings.\n\nYou can explore my academic background, professional experience, and fieldwork skills using the navigation above. A selection of my wildlife photography is also available."
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Colorado State University (Remote) Expected December 2026\n\nRelevant coursework:\n\nEnvironmental Data Science Applications\nLife Cycle Assessment for Sustainability\nGIS & Data Analysis in Water Resources\nAnalysis of Environmental Impact (NEPA)\nModeling Watershed Hydrology"
+  },
+  {
+    "objectID": "education.html#professional-science-master-in-ecosystem-science-sustainability",
+    "href": "education.html#professional-science-master-in-ecosystem-science-sustainability",
+    "title": "Education",
+    "section": "",
+    "text": "Colorado State University (Remote) Expected December 2026\n\nRelevant coursework:\n\nEnvironmental Data Science Applications\nLife Cycle Assessment for Sustainability\nGIS & Data Analysis in Water Resources\nAnalysis of Environmental Impact (NEPA)\nModeling Watershed Hydrology"
+  },
+  {
+    "objectID": "education.html#master-of-science-in-biology",
+    "href": "education.html#master-of-science-in-biology",
+    "title": "Education",
+    "section": "Master of Science in Biology",
+    "text": "Master of Science in Biology\nAustin Peay State University - Clarksville, TN\nMay 2022\n\nRelevant coursework:\n\nAlgal Ecology\nIchthyology\nHerpetology\nOrnithology\nAnimal Behavior"
+  },
+  {
+    "objectID": "education.html#bachelor-of-science-in-biology",
+    "href": "education.html#bachelor-of-science-in-biology",
+    "title": "Education",
+    "section": "Bachelor of Science in Biology",
+    "text": "Bachelor of Science in Biology\nEastern Michigan University - Ypsilanti, MI\nApril 2020\n\nConcentration: Ecology, Organismal Diversity, & Evolution\nMinor: Zoology\nRelevant coursework:\n\nConservation Biology\nBehavioral Ecology\nMarine Biology"
   },
   {
     "objectID": "about.html",
@@ -12,5 +75,89 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "Henry Ford College - Dearborn, MI January 2026 - Present\n\nDeliver exceptional instruction for Biology: Organisms, Genes, and Ecology Lecture and Lab\nAnalyze student assessment data and review content as needed\nMentor students’ academic journey through various life sciences programs\n\nKey skills: lesson planning and assessment · learning outcome alignment · formative and summative assessment"
+  },
+  {
+    "objectID": "experience.html#adjunct-professor",
+    "href": "experience.html#adjunct-professor",
+    "title": "Professional Experience",
+    "section": "",
+    "text": "Henry Ford College - Dearborn, MI January 2026 - Present\n\nDeliver exceptional instruction for Biology: Organisms, Genes, and Ecology Lecture and Lab\nAnalyze student assessment data and review content as needed\nMentor students’ academic journey through various life sciences programs\n\nKey skills: lesson planning and assessment · learning outcome alignment · formative and summative assessment"
+  },
+  {
+    "objectID": "experience.html#tutor",
+    "href": "experience.html#tutor",
+    "title": "Professional Experience",
+    "section": "Tutor",
+    "text": "Tutor\nWashtenaw Community College — Ann Arbor, MI\nJanuary 2025 – Present\n\nProvide academic support to undergraduate students in biology, chemistry, and mathematics through individualized tutoring plans.\nAssist students with coursework, exam preparation, and the development of effective study and organizational skills.\nInterview and evaluate prospective tutors and make recommendations to management.\n\nKey skills: science communication · mentoring · academic support · assessment\n\nInvited Workshop Speaker\nGaining Experience as an Undergraduate, Washtenaw Community College — Ann Arbor, MI\nDecember 2025\n\nDesigned and delivered a workshop for undergraduate students focused on gaining research, fieldwork, and professional experience in biology and environmental science.\nShared strategies for identifying opportunities, building faculty relationships, and preparing for graduate study and environmental careers.\n\nSkills demonstrated: mentoring · science communication · workshop facilitation · academic advising"
+  },
+  {
+    "objectID": "experience.html#nature-center-aide",
+    "href": "experience.html#nature-center-aide",
+    "title": "Professional Experience",
+    "section": "Nature Center Aide",
+    "text": "Nature Center Aide\nBurgess–Shadbush Nature Center — Shelby Township, MI\nApril 2025 – September 2025\n\nDeveloped and delivered educational programs for school groups, scouts, and the public on local ecology and wildlife.\nCommunicated scientific concepts to audiences with diverse backgrounds and levels of scientific familiarity.\nProvided daily husbandry and care for herpetofauna, mammals, and birds.\n\nKey skills: environmental education · animal husbandry · public engagement · interpretation"
+  },
+  {
+    "objectID": "experience.html#honors-biology-teacher",
+    "href": "experience.html#honors-biology-teacher",
+    "title": "Professional Experience",
+    "section": "Honors Biology Teacher",
+    "text": "Honors Biology Teacher\nSoddy-Daisy High School — Soddy-Daisy, TN\nAugust 2023 – July 2024\n\nDesigned and modified lesson plans aligned with state standards for Honors Biology courses.\nUsed formative assessments and data-driven instruction to identify learning gaps and adapt instruction.\nFostered an inclusive classroom environment that encouraged student curiosity and engagement.\n\nKey skills: curriculum development · data-informed instruction · classroom management"
+  },
+  {
+    "objectID": "experience.html#honors-biology-teacher-1",
+    "href": "experience.html#honors-biology-teacher-1",
+    "title": "Professional Experience",
+    "section": "Honors Biology Teacher",
+    "text": "Honors Biology Teacher\nSomerset Academy Canyons Middle/High School — Boynton Beach, FL\nAugust 2022 – June 2023\n\nPrepared and delivered biology lessons and laboratory activities aligned with state standards.\nAdapted instruction to support English language learners, exceptional students, and diverse learning needs.\nManaged classroom behavior to maintain a positive and supportive learning environment.\n\nKey skills: instructional design · inclusive teaching · laboratory instruction"
+  },
+  {
+    "objectID": "experience.html#sales-associate",
+    "href": "experience.html#sales-associate",
+    "title": "Professional Experience",
+    "section": "Sales Associate",
+    "text": "Sales Associate\nPPG Paints — Canton, MI\nJanuary 2018 – August 2020\n\nCoordinated with management, distribution centers, and contractors to prepare and fulfill customer orders.\nProvided technical guidance to customers on product selection and project planning.\n\nKey skills: customer service · coordination · technical communication"
+  },
+  {
+    "objectID": "experience.html#sales-associate-1",
+    "href": "experience.html#sales-associate-1",
+    "title": "Professional Experience",
+    "section": "Sales Associate",
+    "text": "Sales Associate\nSherwin-Williams Company — Plymouth, MI\nMarch 2016 – December 2017\n\nAssisted customers with product selection and project needs.\nSupported daily retail operations and inventory management.\n\nKey skills: customer engagement · problem-solving · teamwork"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Publications & Projects",
+    "section": "",
+    "text": "Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., Zorney, A., & Atma, J. (2022).\nPhysical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.\nThis study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll a, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.\nSkills demonstrated: freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing"
+  },
+  {
+    "objectID": "projects.html#publications",
+    "href": "projects.html#publications",
+    "title": "Publications & Projects",
+    "section": "",
+    "text": "Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., Zorney, A., & Atma, J. (2022).\nPhysical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.\nThis study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll a, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.\nSkills demonstrated: freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing"
+  },
+  {
+    "objectID": "projects.html#academic-applied-projects",
+    "href": "projects.html#academic-applied-projects",
+    "title": "Publications & Projects",
+    "section": "Academic & Applied Projects",
+    "text": "Academic & Applied Projects\n\nCradle-to-Gate Life Cycle Assessment of PLA vs. Nylon Fishing Line\nLife Cycle Assessment for Sustainability — Professional Science Master’s Program\n\nConducted a cradle-to-gate life cycle assessment comparing polylactic acid (PLA) and nylon fishing line.\nEvaluated environmental impacts across raw material extraction, manufacturing, and processing stages.\nApplied ISO-compliant LCA methodology to assess trade-offs related to material choice and sustainability.\nInterpreted results to inform environmentally responsible decision-making in recreational fishing gear.\n\nSkills demonstrated: life cycle assessment · ISO standards · environmental impact analysis\n\n\n\nProfessional Website Development with Quarto\nEnvironmental Data Science Applications — Professional Science Master’s Program\n\nDesigned and developed a personal professional website using Quarto to showcase academic background, research experience, and applied projects.\nImplemented a reproducible workflow integrating R, Markdown, Git, and GitHub for version control and deployment.\nStructured multi-page content using YAML configuration, modular .qmd files, and consistent site navigation.\nPublished and maintained the website using GitHub Pages, demonstrating deployment and web-hosting skills.\nEmphasized clear organization, accessibility, and effective communication of technical content to diverse audiences.\n\nSkills demonstrated: R · Quarto · Git · GitHub · Markdown · reproducible workflows"
+  },
+  {
+    "objectID": "projects.html#research-project-experience-selected",
+    "href": "projects.html#research-project-experience-selected",
+    "title": "Publications & Projects",
+    "section": "Research Project Experience (Selected)",
+    "text": "Research Project Experience (Selected)\n\nOrangethroat Darter (Etheostoma spectabile) Species Assessment\n\nAssisted the Michigan Department of Natural Resources with field sampling and data analysis.\nContributed to a species assessment to update the conservation status of Orangethroat Darters in Southeast Michigan.\n\nSkills demonstrated: freshwater fish identification · field sampling techniques · ecological data collection · collaboration with agency scientists · conservation assessment support\n\n\nSalamander Genomics in Protected Areas of Ann Arbor, Michigan\n\nParticipated in efforts to identify unisexual Ambystoma biotypes across preserved lands.\nSupported genomic analysis and field sampling activities in protected natural areas.\n\nSkills demonstrated: amphibian identification · field sampling · basic genomics workflows · laboratory techniques · data organization · research collaboration\n\n\nEffects of Temperature on Snake Thermoregulation via Cover Boards\n\nConducted pilot research examining behavioral thermoregulation of local snake species.\nDesigned and implemented a cover board survey and developed a research proposal outlining methods and hypotheses.\n\nSkills demonstrated: herpetological field methods · behavioral observation · experimental design · pilot study development · scientific writing · research proposal development"
   }
 ]

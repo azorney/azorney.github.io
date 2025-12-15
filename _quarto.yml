@@ -10,13 +10,13 @@ website:
         text: Home
       - education.qmd
       - experience.qmd
-      - skills.qmd
       - projects.qmd
+      - skills.qmd
       - photography.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     toc: true
 
 editor: visual

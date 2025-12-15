@@ -1,0 +1,40 @@
+---
+title: "Education"
+---
+
+## Professional Science Master in Ecosystem Science & Sustainability
+**Colorado State University (Remote)**
+*Expected December 2026*
+
+- Relevant coursework:
+  - Environmental Data Science Applications
+  - Life Cycle Assessment for Sustainability
+  - GIS & Data Analysis in Water Resources
+  - Analysis of Environmental Impact (NEPA)
+  - Modeling Watershed Hydrology
+  
+## Master of Science in Biology
+**Austin Peay State University - Clarksville, TN**  
+*May 2022* 
+
+- Relevant coursework:
+  - Algal Ecology
+  - Ichthyology
+  - Herpetology
+  - Ornithology
+  - Animal Behavior
+
+---
+
+## Bachelor of Science in Biology
+**Eastern Michigan University - Ypsilanti, MI**  
+*April 2020*
+
+- Concentration: Ecology, Organismal Diversity, & Evolution
+- Minor: Zoology
+- Relevant coursework:
+  - Conservation Biology
+  - Behavioral Ecology
+  - Marine Biology
+
+---

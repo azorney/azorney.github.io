@@ -1,0 +1,53 @@
+---
+title: "Field, Lab, Technical, & Communication Skills"
+---
+
+## Field Skills
+
+- Species identification (fish, amphibians, reptiles, birds)
+- Freshwater fish and macroinvertebrate sampling (electrofishing, kick nets, seines, dip nets)
+- Salamander and snake capture, handling, measuring, sexing, and marking
+- Habitat surveys and ecological monitoring
+- Mist netting for bats and birds
+- Cover board surveys for herpetofauna
+- GPS-based field data collection
+- Field safety and environmental compliance
+
+---
+
+## Laboratory Skills
+
+- Algal and diatom identification and analysis
+- Diatom species assays
+- Soft-algae species assays
+- Benthic periphyton sampling and analysis
+- Water quality analysis (dissolved oxygen, turbidity, chlorophyll *a*, nutrients)
+- Rapidocelis bioassays for water quality
+- Confocal microscopy
+- PCR and gel electrophoresis
+- Sample processing and quality control
+
+---
+
+## Data, Analysis & Technical Skills
+
+- Data analysis and visualization in **R**
+- Reproducible research with **Quarto** and **R Markdown**
+- Version control using **Git** and **GitHub**
+- Introductory GIS mapping and spatial analysis with **ArcGIS Pro**
+- Introductory ISO-compliant life cycle assessment (LCA)
+- Data organization and documentation
+- Figure and infographic development
+
+---
+
+## Communication & Education Skills
+
+- Scientific writing and peer-reviewed publication
+- Science communication for non-technical audiences
+- Environmental education and outreach
+- Instructional design and laboratory teaching
+- Student mentoring and tutoring
+- Presentation of technical information to community stakeholders
+
+---

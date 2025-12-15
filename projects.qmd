@@ -1,0 +1,64 @@
+---
+title: "Publications & Projects"
+---
+
+## Publications
+
+**Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., ***Zorney, A.***, & Atma, J.** (2022).  
+*Physical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.*  
+
+This study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll *a*, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.
+
+**Skills demonstrated:** freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing
+
+---
+
+## Academic & Applied Projects
+
+### Cradle-to-Gate Life Cycle Assessment of PLA vs. Nylon Fishing Line
+*Life Cycle Assessment for Sustainability — Professional Science Master’s Program*
+
+- Conducted a cradle-to-gate life cycle assessment comparing polylactic acid (PLA) and nylon fishing line.
+- Evaluated environmental impacts across raw material extraction, manufacturing, and processing stages.
+- Applied ISO-compliant LCA methodology to assess trade-offs related to material choice and sustainability.
+- Interpreted results to inform environmentally responsible decision-making in recreational fishing gear.
+
+**Skills demonstrated:** life cycle assessment · ISO standards · environmental impact analysis
+
+---
+
+### Professional Website Development with Quarto
+*Environmental Data Science Applications — Professional Science Master’s Program*
+
+- Designed and developed a personal professional website using **Quarto** to showcase academic background, research experience, and applied projects.
+- Implemented a reproducible workflow integrating **R**, **Markdown**, **Git**, and **GitHub** for version control and deployment.
+- Structured multi-page content using YAML configuration, modular `.qmd` files, and consistent site navigation.
+- Published and maintained the website using **GitHub Pages**, demonstrating deployment and web-hosting skills.
+- Emphasized clear organization, accessibility, and effective communication of technical content to diverse audiences.
+
+**Skills demonstrated:** R · Quarto · Git · GitHub · Markdown · reproducible workflows
+
+---
+
+## Research Project Experience (Selected)
+
+### Orangethroat Darter (*Etheostoma spectabile*) Species Assessment
+- Assisted the Michigan Department of Natural Resources with field sampling and data analysis.
+- Contributed to a species assessment to update the conservation status of Orangethroat Darters in Southeast Michigan.
+
+**Skills demonstrated:** freshwater fish identification · field sampling techniques · ecological data collection · collaboration with agency scientists · conservation assessment support
+
+### Salamander Genomics in Protected Areas of Ann Arbor, Michigan
+- Participated in efforts to identify unisexual *Ambystoma* biotypes across preserved lands.
+- Supported genomic analysis and field sampling activities in protected natural areas.
+
+**Skills demonstrated:** amphibian identification · field sampling · basic genomics workflows · laboratory techniques · data organization · research collaboration
+
+
+### Effects of Temperature on Snake Thermoregulation via Cover Boards
+- Conducted pilot research examining behavioral thermoregulation of local snake species.
+- Designed and implemented a cover board survey and developed a research proposal outlining methods and hypotheses.
+
+**Skills demonstrated:** herpetological field methods · behavioral observation · experimental design · pilot study development · scientific writing · research proposal development
+
+---
