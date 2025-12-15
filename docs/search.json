@@ -95,7 +95,7 @@
     "href": "experience.html#tutor",
     "title": "Professional Experience",
     "section": "Tutor",
-    "text": "Tutor\nWashtenaw Community College — Ann Arbor, MI\nJanuary 2025 – Present\n\nProvide academic support to undergraduate students in biology, chemistry, and mathematics through individualized tutoring plans.\nAssist students with coursework, exam preparation, and the development of effective study and organizational skills.\nInterview and evaluate prospective tutors and make recommendations to management.\n\nKey skills: science communication · mentoring · academic support · assessment\n\nInvited Workshop Speaker\nGaining Experience as an Undergraduate, Washtenaw Community College — Ann Arbor, MI\nDecember 2025\n\nDesigned and delivered a workshop for undergraduate students focused on gaining research, fieldwork, and professional experience in biology and environmental science.\nShared strategies for identifying opportunities, building faculty relationships, and preparing for graduate study and environmental careers.\n\nSkills demonstrated: mentoring · science communication · workshop facilitation · academic advising"
+    "text": "Tutor\nWashtenaw Community College — Ann Arbor, MI\nJanuary 2025 – Present\n\nProvide academic support to undergraduate students in biology, chemistry, and mathematics through individualized tutoring plans.\nAssist students with coursework, exam preparation, and the development of effective study and organizational skills.\nInterview and evaluate prospective tutors and make recommendations to management.\n\nKey skills: science communication · mentoring · academic support · assessment"
   },
   {
     "objectID": "experience.html#nature-center-aide",
@@ -135,28 +135,35 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Publications & Projects",
+    "title": "Publications,Talks, & Projects",
     "section": "",
     "text": "Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., Zorney, A., & Atma, J. (2022).\nPhysical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.\nThis study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll a, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.\nSkills demonstrated: freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing"
   },
   {
     "objectID": "projects.html#publications",
     "href": "projects.html#publications",
-    "title": "Publications & Projects",
+    "title": "Publications,Talks, & Projects",
     "section": "",
     "text": "Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., Zorney, A., & Atma, J. (2022).\nPhysical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee. Phytoneuron.\nThis study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll a, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.\nSkills demonstrated: freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing"
   },
   {
+    "objectID": "projects.html#invited-talks",
+    "href": "projects.html#invited-talks",
+    "title": "Publications,Talks, & Projects",
+    "section": "Invited Talks",
+    "text": "Invited Talks\n\nInvited Workshop Speaker\nGaining Experience as an Undergraduate, Washtenaw Community College — Ann Arbor, MI\nDecember 2025\n\nDesigned and delivered a workshop for undergraduate students focused on gaining research, fieldwork, and professional experience in biology and environmental science.\nShared strategies for identifying opportunities, building faculty relationships, and preparing for graduate study and environmental careers.\n\nSkills demonstrated: mentoring · science communication · workshop facilitation · academic advising"
+  },
+  {
     "objectID": "projects.html#academic-applied-projects",
     "href": "projects.html#academic-applied-projects",
-    "title": "Publications & Projects",
+    "title": "Publications,Talks, & Projects",
     "section": "Academic & Applied Projects",
     "text": "Academic & Applied Projects\n\nCradle-to-Gate Life Cycle Assessment of PLA vs. Nylon Fishing Line\nLife Cycle Assessment for Sustainability — Professional Science Master’s Program\n\nConducted a cradle-to-gate life cycle assessment comparing polylactic acid (PLA) and nylon fishing line.\nEvaluated environmental impacts across raw material extraction, manufacturing, and processing stages.\nApplied ISO-compliant LCA methodology to assess trade-offs related to material choice and sustainability.\nInterpreted results to inform environmentally responsible decision-making in recreational fishing gear.\n\nSkills demonstrated: life cycle assessment · ISO standards · environmental impact analysis\n\n\n\nProfessional Website Development with Quarto\nEnvironmental Data Science Applications — Professional Science Master’s Program\n\nDesigned and developed a personal professional website using Quarto to showcase academic background, research experience, and applied projects.\nImplemented a reproducible workflow integrating R, Markdown, Git, and GitHub for version control and deployment.\nStructured multi-page content using YAML configuration, modular .qmd files, and consistent site navigation.\nPublished and maintained the website using GitHub Pages, demonstrating deployment and web-hosting skills.\nEmphasized clear organization, accessibility, and effective communication of technical content to diverse audiences.\n\nSkills demonstrated: R · Quarto · Git · GitHub · Markdown · reproducible workflows"
   },
   {
     "objectID": "projects.html#research-project-experience-selected",
     "href": "projects.html#research-project-experience-selected",
-    "title": "Publications & Projects",
+    "title": "Publications,Talks, & Projects",
     "section": "Research Project Experience (Selected)",
     "text": "Research Project Experience (Selected)\n\nOrangethroat Darter (Etheostoma spectabile) Species Assessment\n\nAssisted the Michigan Department of Natural Resources with field sampling and data analysis.\nContributed to a species assessment to update the conservation status of Orangethroat Darters in Southeast Michigan.\n\nSkills demonstrated: freshwater fish identification · field sampling techniques · ecological data collection · collaboration with agency scientists · conservation assessment support\n\n\nSalamander Genomics in Protected Areas of Ann Arbor, Michigan\n\nParticipated in efforts to identify unisexual Ambystoma biotypes across preserved lands.\nSupported genomic analysis and field sampling activities in protected natural areas.\n\nSkills demonstrated: amphibian identification · field sampling · basic genomics workflows · laboratory techniques · data organization · research collaboration\n\n\nEffects of Temperature on Snake Thermoregulation via Cover Boards\n\nConducted pilot research examining behavioral thermoregulation of local snake species.\nDesigned and implemented a cover board survey and developed a research proposal outlining methods and hypotheses.\n\nSkills demonstrated: herpetological field methods · behavioral observation · experimental design · pilot study development · scientific writing · research proposal development"
   }
