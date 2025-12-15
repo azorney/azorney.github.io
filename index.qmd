@@ -1,5 +1,16 @@
 ---
-title: "azorney"
+---
+title: "Your Name"
+image: Glacier selfie.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/anthony-zorney/
+    - text: Email
+      href: zorney.anthony@gmail.com
 ---
 
 This is a Quarto website.
