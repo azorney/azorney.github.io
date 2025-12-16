@@ -6,27 +6,30 @@ title: "Photography"
 ![](photos/denali.jpg){fig-alt="Denali National Park landscape" width=100%}
 :::
 
-::: {.grid .gallery}
-![](photos/alaska.jpg)
-![](photos/hawaii.jpg)
+<div class="photo-grid">
+  <img src="photos/alaska.jpg" alt="Landscape photograph">
+  <img src="photos/hawaii.jpg" alt="Coastal landscape photograph">
+  <img src="photos/anhinga.jpg" alt="Anhinga photograph">
 
-![](photos/anhinga.jpg)
-![](photos/cardinal.jpg)
-![](photos/chickadee.jpg)
+  <img src="photos/cardinal.jpg" alt="Northern Cardinal photograph">
+  <img src="photos/chickadee.jpg" alt="Chickadee photograph">
+  <img src="photos/downy.jpg" alt="Downy Woodpecker photograph">
 
-![](photos/downy.jpg)
-![](photos/goldfinch.jpg)
-![](photos/hawk.jpg)
+  <img src="photos/goldfinch.jpg" alt="American Goldfinch photograph">
+  <img src="photos/hawk.jpg" alt="Hawk photograph">
+  <img src="photos/limpkin.jpg" alt="Limpkin photograph">
 
-![](photos/limpkin.jpg)
-![](photos/gator.jpg)
-![](photos/cattle.jpg)
-:::
+  <img src="photos/gator.jpg" alt="American Alligator photograph">
+  <img src="photos/cattle.jpg" alt="Cattle Egret photograph">
+</div>
 
-::: {.center}
-[![](photos/logo.png){width=120px}](https://www.instagram.com/az_wildlife_photography)
-
-*More wildlife photography on Instagram*
-:::
+<div style="text-align:center; margin-top: 28px;">
+  <a href="https://www.instagram.com/az_wildlife_photography" target="_blank" rel="noopener">
+    <img src="photos/logo.png" alt="Instagram" style="width:120px; height:auto;">
+  </a>
+  <div style="font-style: italic; margin-top: 6px;">
+    More wildlife photography on Instagram
+  </div>
+</div>
 
 ---
