@@ -1,0 +1,32 @@
+---
+title: "Photography"
+---
+
+::: {.column-page}
+![](photos/denali.jpg){fig-alt="Denali National Park landscape" width=100%}
+:::
+
+::: {.grid .gallery}
+![](photos/alaska.jpg)
+![](photos/hawaii.jpg)
+
+![](photos/anhinga.jpg)
+![](photos/cardinal.jpg)
+![](photos/chickadee.jpg)
+
+![](photos/downy.jpg)
+![](photos/goldfinch.jpg)
+![](photos/hawk.jpg)
+
+![](photos/limpkin.jpg)
+![](photos/gator.jpg)
+![](photos/cattle.jpg)
+:::
+
+::: {.center}
+[![](photos/logo.png){width=120px}](https://www.instagram.com/az_wildlife_photography)
+
+*More wildlife photography on Instagram*
+:::
+
+---
