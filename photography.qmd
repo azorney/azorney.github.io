@@ -2,34 +2,131 @@
 title: "Photography"
 ---
 
-::: {.column-page}
-![](photos/denali.jpg){fig-alt="Denali National Park landscape" width=100%}
-:::
+```{=html}
+<div class="photo-wrap">
 
-<div class="photo-grid">
-  <img src="photos/alaska.jpg" alt="Landscape photograph">
-  <img src="photos/hawaii.jpg" alt="Coastal landscape photograph">
-  <img src="photos/anhinga.jpg" alt="Anhinga photograph">
+  <!-- Hero -->
+  <img class="hero-img" src="photos/denali.jpg" alt="Denali National Park">
 
-  <img src="photos/cardinal.jpg" alt="Northern Cardinal photograph">
-  <img src="photos/chickadee.jpg" alt="Chickadee photograph">
-  <img src="photos/downy.jpg" alt="Downy Woodpecker photograph">
+  <!-- Gallery -->
+  <div class="photo-grid">
+    <img src="photos/alaska.jpg" alt="Glacier Bay National Park">
+    <img src="photos/hawaii.jpg" alt="Oahu, Hawaii">
+    <img src="photos/anhinga.jpg" alt="Anhinga">
 
-  <img src="photos/goldfinch.jpg" alt="American Goldfinch photograph">
-  <img src="photos/hawk.jpg" alt="Hawk photograph">
-  <img src="photos/limpkin.jpg" alt="Limpkin photograph">
+    <img src="photos/cardinal.jpg" alt="Female Northern Cardinal">
+    <img src="photos/chickadee.jpg" alt="Black Capped Chickadee">
+    <img src="photos/downy.jpg" alt="Male Downy Woodpecker">
 
-  <img src="photos/gator.jpg" alt="American Alligator photograph">
-  <img src="photos/cattle.jpg" alt="Cattle Egret photograph">
+    <img src="photos/goldfinch.jpg" alt="American Goldfinch">
+    <img src="photos/hawk.jpg" alt="Red-shouldered Hawk">
+    <img src="photos/limpkin.jpg" alt="Limpkin">
+
+    <img src="photos/gator.jpg" alt="American Alligator">
+    <img src="photos/cattle.jpg" alt="Western Cattle Egret">
+  </div>
+
+  <!-- Instagram footer (logo link + caption) -->
+  <div class="photo-footer">
+    <a href="https://www.instagram.com/az_wildlife_photography" target="_blank" rel="noopener">
+      <img src="photos/logo.png" alt="Instagram">
+    </a>
+    <p><em>More wildlife photography on Instagram</em></p>
+  </div>
+
 </div>
 
-<div style="text-align:center; margin-top: 28px;">
-  <a href="https://www.instagram.com/az_wildlife_photography" target="_blank" rel="noopener">
-    <img src="photos/logo.png" alt="Instagram" style="width:120px; height:auto;">
-  </a>
-  <div style="font-style: italic; margin-top: 6px;">
-    More wildlife photography on Instagram
+<!-- Lightbox overlay -->
+<div id="lightbox-overlay" aria-hidden="true">
+  <div class="lightbox-stage">
+    <button class="lightbox-btn lightbox-close" type="button" aria-label="Close">×</button>
+    <button class="lightbox-btn lightbox-prev" type="button" aria-label="Previous">‹</button>
+    <button class="lightbox-btn lightbox-next" type="button" aria-label="Next">›</button>
+
+    <img id="lightbox-img" alt="">
+    <div id="lightbox-caption"></div>
   </div>
 </div>
 
+<script>
+  (function () {
+    const overlay = document.getElementById("lightbox-overlay");
+    const imgEl = document.getElementById("lightbox-img");
+    const capEl = document.getElementById("lightbox-caption");
+
+    const btnClose = document.querySelector(".lightbox-close");
+    const btnPrev  = document.querySelector(".lightbox-prev");
+    const btnNext  = document.querySelector(".lightbox-next");
+
+    // Make hero + thumbnails clickable in the lightbox
+    const items = Array.from(document.querySelectorAll(".hero-img, .photo-grid img"));
+    let currentIndex = -1;
+
+    function openAt(index) {
+      if (!items.length) return;
+
+      currentIndex = (index + items.length) % items.length;
+      const img = items[currentIndex];
+
+      imgEl.src = img.src;
+      imgEl.alt = img.alt || "Photo";
+      capEl.textContent = img.alt || "";
+
+      overlay.classList.add("is-open");
+      overlay.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function close() {
+      overlay.classList.remove("is-open");
+      overlay.setAttribute("aria-hidden", "true");
+
+      imgEl.src = "";
+      imgEl.alt = "";
+      capEl.textContent = "";
+
+      document.body.style.overflow = "";
+      currentIndex = -1;
+    }
+
+    function prev() {
+      if (currentIndex === -1) return;
+      openAt(currentIndex - 1);
+    }
+
+    function next() {
+      if (currentIndex === -1) return;
+      openAt(currentIndex + 1);
+    }
+
+    // Click any gallery image (or hero) to open
+    items.forEach((img, idx) => {
+      img.style.cursor = "zoom-in";
+      img.addEventListener("click", () => openAt(idx));
+    });
+
+    // Button controls
+    btnClose.addEventListener("click", close);
+    btnPrev.addEventListener("click", prev);
+    btnNext.addEventListener("click", next);
+
+    // Click outside the stage to close
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) close();
+    });
+
+    // Click image to close
+    imgEl.addEventListener("click", close);
+
+    // Keyboard support
+    document.addEventListener("keydown", (e) => {
+      if (!overlay.classList.contains("is-open")) return;
+
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowRight") next();
+    });
+  })();
+</script>
+```
 ---
