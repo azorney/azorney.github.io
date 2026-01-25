@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -33,14 +68,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./photos/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e83117e711fad372bcb8c8022997a9a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +116,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Anthony Zorney</span>
     </a>
@@ -143,7 +181,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-project-experience-selected" id="toc-research-project-experience-selected" class="nav-link" data-scroll-target="#research-project-experience-selected">Research Project Experience (Selected)</a>
   <ul class="collapse">
   <li><a href="#orangethroat-darter-etheostoma-spectabile-species-assessment" id="toc-orangethroat-darter-etheostoma-spectabile-species-assessment" class="nav-link" data-scroll-target="#orangethroat-darter-etheostoma-spectabile-species-assessment">Orangethroat Darter (<em>Etheostoma spectabile</em>) Species Assessment</a></li>
+  <li><a href="#trends-in-national-park-attendance" id="toc-trends-in-national-park-attendance" class="nav-link" data-scroll-target="#trends-in-national-park-attendance">Trends in National Park Attendance</a></li>
   <li><a href="#salamander-genomics-in-protected-areas-of-ann-arbor-michigan" id="toc-salamander-genomics-in-protected-areas-of-ann-arbor-michigan" class="nav-link" data-scroll-target="#salamander-genomics-in-protected-areas-of-ann-arbor-michigan">Salamander Genomics in Protected Areas of Ann Arbor, Michigan</a></li>
+  <li><a href="#impact-of-atrazine-on-zebrafish-embryos" id="toc-impact-of-atrazine-on-zebrafish-embryos" class="nav-link" data-scroll-target="#impact-of-atrazine-on-zebrafish-embryos">Impact of Atrazine on Zebrafish Embryos</a></li>
+  <li><a href="#northern-cardinal-ethogram" id="toc-northern-cardinal-ethogram" class="nav-link" data-scroll-target="#northern-cardinal-ethogram">Northern Cardinal Ethogram</a></li>
   <li><a href="#effects-of-temperature-on-snake-thermoregulation-via-cover-boards" id="toc-effects-of-temperature-on-snake-thermoregulation-via-cover-boards" class="nav-link" data-scroll-target="#effects-of-temperature-on-snake-thermoregulation-via-cover-boards">Effects of Temperature on Snake Thermoregulation via Cover Boards</a></li>
   </ul></li>
   </ul>
@@ -176,6 +217,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong><em>Physical and algal characteristics of Liberty Park Reservoir in Clarksville, Tennessee</em></strong></p>
 <p>Lebkuecher, J., Culley, A., Georgic, B., Hohman, E., Latta, H., Salman, N., Sennuga, T., Spruill, D., <strong><em>Zorney, A.</em></strong>, &amp; Atma, J. <em>Phytoneuron</em> (2022).</p>
 <p>This study evaluated the physical, chemical, and biological characteristics of Liberty Park Reservoir to assess ecological condition and establish baseline data for long-term monitoring. Water column analyses included light extinction, turbidity, nutrients, chlorophyll <em>a</em>, dissolved oxygen, and biochemical oxygen demand, while benthic assessments quantified periphyton biomass, sediment organic content, and algal community composition. Results indicated that the reservoir is ecologically impaired by nutrient enrichment and erosion, leading to eutrophic conditions and degraded phytoplankton and periphyton communities.</p>
+<p><img src="photos/physical_algae.png" class="img-fluid" alt="LCA results chart comparing PLA and nylon"></p>
+<p><img src="photos/biological_algae.png" class="img-fluid" alt="LCA results chart comparing PLA and nylon"></p>
 <p><strong>Skills demonstrated:</strong> freshwater ecosystem assessment · water quality monitoring · nutrient and chlorophyll analysis · benthic periphyton sampling · algal and diatom identification · trophic state assessment · field instrumentation · ecological data interpretation · peer-reviewed scientific writing</p>
 <hr>
 </section>
@@ -203,6 +246,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Interpreted results to inform environmentally responsible decision-making in recreational fishing gear.</li>
 </ul>
 <p><strong>Skills demonstrated:</strong> life cycle assessment · ISO standards · environmental impact analysis</p>
+<p>Using openLCA I was able to conduct a Life Cycle Impact Analysis and generate Sankey diagrams demonstrating to what degree different processes contributed to a given environmental impact.</p>
+<p><img src="photos/lca_impact.png" class="img-fluid" alt="LCA results chart comparing PLA and nylon"></p>
+<p><img src="photos/lca_sankey.png" class="img-fluid" alt="LCA results chart comparing PLA and nylon"></p>
+<p>Using Excel, I was able to create figures demonstrating which material had a greater environmental impact in various categories.</p>
+<p><img src="photos/lca_visual.png" class="img-fluid" alt="LCA results chart comparing PLA and nylon"></p>
 <hr>
 </section>
 <section id="professional-website-development-with-quarto" class="level3">
@@ -228,6 +276,82 @@ ul.task-list li input[type="checkbox"] {
 <li>Contributed to a species assessment to update the conservation status of Orangethroat Darters in Southeast Michigan.</li>
 </ul>
 <p><strong>Skills demonstrated:</strong> freshwater fish identification · field sampling techniques · ecological data collection · collaboration with agency scientists · conservation assessment support</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/darters2.png" class="img-fluid figure-img" alt="LCA results chart comparing PLA and nylon"></p>
+<figcaption>The data show that roads and agricultural land immediately adjacent to the stream was the greatest predictor of darter abundance.</figcaption>
+</figure>
+</div>
+</section>
+<section id="trends-in-national-park-attendance" class="level3">
+<h3 class="anchored" data-anchor-id="trends-in-national-park-attendance">Trends in National Park Attendance</h3>
+<ul>
+<li><p>Created a function to access publicly available data related to national park attendance</p></li>
+<li><p>Manipulated data for easier analysis</p></li>
+<li><p>Created a visual showing the change in park attendance for ten selected parks</p></li>
+</ul>
+<p><strong>Demonstrated Skills:</strong> data retreival · data manipulation · function creation in R · data visualization</p>
+<p>Section of code creating function to pull data from any selected park.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>unit_visitation <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">start_month =</span> <span class="dv">1</span>, <span class="at">end_month =</span> <span class="dv">12</span>, start_year, end_year, park){</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  raw_data_ex_3 <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">GET</span>(<span class="at">url =</span> <span class="fu">paste0</span>(<span class="st">"https://irmaservices.nps.gov/v3/rest/stats/visitation?unitCodes="</span>, </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>park, <span class="st">"&amp;startMonth="</span>, start_month, <span class="st">"&amp;startYear="</span>, start_year, <span class="st">"&amp;endMonth="</span>, end_month, <span class="st">"&amp;endYear="</span>, end_year))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  extracted_data <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">content</span>(raw_data_ex_3, <span class="at">as =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  final_data <span class="ot">&lt;-</span> jsonlite<span class="sc">::</span><span class="fu">fromJSON</span>(extracted_data)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">return</span>(final_data)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Section of code creating visual representation of attendance over time of ten selected parks.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>bonus_parks <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"ACAD"</span>, <span class="st">"APPA"</span>, <span class="st">"BADL"</span>, <span class="st">"BIBE"</span>, <span class="st">"BICY"</span>, <span class="st">"CHCH"</span>, <span class="st">"DENA"</span>, <span class="st">"EVER"</span>, <span class="st">"GLAC"</span>, <span class="st">"GLBA"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>bonus_units_vis <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">start_month =</span> <span class="dv">1</span>, <span class="at">end_month =</span> <span class="dv">12</span>, start_year, end_year, park){</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  raw_data_ex_3 <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">GET</span>(<span class="at">url =</span> <span class="fu">paste0</span>(<span class="st">"https://irmaservices.nps.gov/v3/rest/stats/visitation?unitCodes="</span>, </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>park, <span class="st">"&amp;startMonth="</span>, start_month, <span class="st">"&amp;startYear="</span>, start_year, <span class="st">"&amp;endMonth="</span>, end_month, <span class="st">"&amp;endYear="</span>, end_year))</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  extracted_bonus_data <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">content</span>(raw_data_ex_3, <span class="at">as =</span> <span class="st">"text"</span>, <span class="at">encoding =</span> <span class="st">"UTF-8"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  final_bonus_data <span class="ot">&lt;-</span> jsonlite<span class="sc">::</span><span class="fu">fromJSON</span>(extracted_data)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">return</span>(final_bonus_data)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>bonus_parks_map <span class="ot">&lt;-</span> bonus_parks <span class="sc">%&gt;%</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">map</span>(<span class="sc">~</span> <span class="fu">unit_visitation</span>(<span class="at">start_year =</span> <span class="dv">1990</span>, <span class="at">end_year =</span> <span class="dv">2024</span>, <span class="at">park =</span> .x)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">bind_rows</span>()</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>bonus_parks_annual <span class="ot">&lt;-</span> bonus_parks_map <span class="sc">%&gt;%</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(UnitCode, Year) <span class="sc">%&gt;%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">RecVisitation =</span> <span class="fu">sum</span>(RecreationVisitors, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), <span class="at">.groups =</span> <span class="st">"drop"</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>growth_data <span class="ot">&lt;-</span> bonus_parks_annual <span class="sc">%&gt;%</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(UnitCode) <span class="sc">%&gt;%</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(UnitCode, Year) <span class="sc">%&gt;%</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">growth_rate =</span> (RecVisitation <span class="sc">-</span> <span class="fu">lag</span>(RecVisitation)) <span class="sc">/</span> <span class="fu">lag</span>(RecVisitation) <span class="sc">*</span> <span class="dv">100</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>bonus_growth_chart <span class="ot">&lt;-</span> growth_data <span class="sc">%&gt;%</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(growth_rate)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> growth_rate, <span class="at">color =</span> UnitCode)) <span class="sc">+</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>plotly<span class="sc">::</span><span class="fu">ggplotly</span>(bonus_growth_chart)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>growth_data_filtered <span class="ot">&lt;-</span> growth_data <span class="sc">%&gt;%</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">1990</span>, Year <span class="sc">&lt;=</span> <span class="dv">2018</span>)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>filtered_bonus_chart <span class="ot">&lt;-</span> growth_data_filtered <span class="sc">%&gt;%</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(growth_rate)) <span class="sc">%&gt;%</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Year, <span class="at">y =</span> growth_rate, <span class="at">color =</span> UnitCode)) <span class="sc">+</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>plotly<span class="sc">::</span><span class="fu">ggplotly</span>(filtered_bonus_chart)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/parks.png" class="img-fluid figure-img"></p>
+<figcaption>Trends in park attendance of ten selected parks.</figcaption>
+</figure>
+</div>
 </section>
 <section id="salamander-genomics-in-protected-areas-of-ann-arbor-michigan" class="level3">
 <h3 class="anchored" data-anchor-id="salamander-genomics-in-protected-areas-of-ann-arbor-michigan">Salamander Genomics in Protected Areas of Ann Arbor, Michigan</h3>
@@ -236,6 +360,53 @@ ul.task-list li input[type="checkbox"] {
 <li>Supported genomic analysis and field sampling activities in protected natural areas.</li>
 </ul>
 <p><strong>Skills demonstrated:</strong> amphibian identification · field sampling · basic genomics workflows · laboratory techniques · data organization · research collaboration</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/salamander.png" class="img-fluid figure-img"></p>
+<figcaption>Genomic analysis allowed for identification of unisexual individuals (LLJ). This allowed for prioritized conservation at sites with documented unisexual individuals.</figcaption>
+</figure>
+</div>
+</section>
+<section id="impact-of-atrazine-on-zebrafish-embryos" class="level3">
+<h3 class="anchored" data-anchor-id="impact-of-atrazine-on-zebrafish-embryos">Impact of Atrazine on Zebrafish Embryos</h3>
+<ul>
+<li><p>Conducted research on the impact of differing concentrations of atrazine on developing zebrafish embryos.</p></li>
+<li><p>Utilized confocal microscopy and data analysis to identify patterns in developing zebrafish embryos exposed to various concentrations of atrazine.</p></li>
+</ul>
+<p><strong>Skills demonstrated:</strong> experimental design · confocal microscopy · data analysis · scientific writing</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/zebrafish.jpg" class="img-fluid figure-img" width="356"></p>
+<figcaption>Zebrafish embryo demonstrating axis bend as a result of atrazine exposure.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/zebrafish_graph.png" class="img-fluid figure-img"></p>
+<figcaption>Data shows increasing incident of axis bending with increasing atrazine exposure. Note that the highest concentration had low incident of axis bent due to high number of deaths.</figcaption>
+</figure>
+</div>
+</section>
+<section id="northern-cardinal-ethogram" class="level3">
+<h3 class="anchored" data-anchor-id="northern-cardinal-ethogram">Northern Cardinal Ethogram</h3>
+<ul>
+<li><p>Developed a table of behaviors observed by Northern Cardinals.</p></li>
+<li><p>Used observations to develop and test a hypothesis related to temporal changes in vocalization.</p></li>
+<li><p>Collected and analyzed data to identify a pattern of decreasing vocalizations during midday hours.</p></li>
+</ul>
+<p>Skills demonstrated: experimental design · data collection · data analysis · scientific writing</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/cardinal_table.png" class="img-fluid figure-img"></p>
+<figcaption>Ethogram showing all observed behaviors.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="photos/cardinal_graph.png" class="img-fluid figure-img"></p>
+<figcaption>Results of focused study on temporal variation in Northern Cardinal vocalizations.</figcaption>
+</figure>
+</div>
 </section>
 <section id="effects-of-temperature-on-snake-thermoregulation-via-cover-boards" class="level3">
 <h3 class="anchored" data-anchor-id="effects-of-temperature-on-snake-thermoregulation-via-cover-boards">Effects of Temperature on Snake Thermoregulation via Cover Boards</h3>
@@ -302,13 +473,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
