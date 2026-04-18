@@ -12,6 +12,7 @@ title: "Education"
     -   GIS & Data Analysis in Water Resources
     -   Analysis of Environmental Impact (NEPA)
     -   Modeling Watershed Hydrology
+    -   Water Law
 
 ## Master of Science in Biology
 
@@ -20,9 +21,6 @@ title: "Education"
 -   Relevant coursework:
     -   Algal Ecology
     -   Ichthyology
-    -   Herpetology
-    -   Ornithology
-    -   Animal Behavior
 
 ------------------------------------------------------------------------
 

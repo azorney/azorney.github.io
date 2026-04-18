@@ -72,8 +72,8 @@ Using Excel, I was able to create figures demonstrating which material had a gre
 
 ### Orangethroat Darter (*Etheostoma spectabile*) Species Assessment
 
--   Assisted the Michigan Department of Natural Resources with field sampling and data analysis.
--   Contributed to a species assessment to update the conservation status of Orangethroat Darters in Southeast Michigan.
+-   Conducted electrofishing surveys and habitat assessments in collaboration with the Michigan Department of Natural Resources
+-   Produced a structured field report with habitat analysis and management recommendations to inform the conservation status review of Orangethroat Darters in Southeast Michigan
 
 **Skills demonstrated:** freshwater fish identification · field sampling techniques · ecological data collection · collaboration with agency scientists · conservation assessment support
 
@@ -81,11 +81,11 @@ Using Excel, I was able to create figures demonstrating which material had a gre
 
 ### Trends in National Park Attendance
 
--   Created a function to access publicly available data related to national park attendance
+-   Developed a reusable R function to retrieve and process NPS visitation data via public API for any selected park unit
 
--   Manipulated data for easier analysis
+-   Cleaned and restructured multi-decade attendance records to enable year-over-year growth analysis across ten national parks
 
--   Created a visual showing the change in park attendance for ten selected parks
+-   Built interactive visualizations using ggplot2 and plotly to communicate long-term attendance trends to non-technical audiences
 
 **Demonstrated Skills:** data retreival · data manipulation · function creation in R · data visualization
 
@@ -152,8 +152,8 @@ plotly::ggplotly(filtered_bonus_chart)
 
 ### Salamander Genomics in Protected Areas of Ann Arbor, Michigan
 
--   Participated in efforts to identify unisexual *Ambystoma* biotypes across preserved lands.
--   Supported genomic analysis and field sampling activities in protected natural areas.
+-   Executed laboratory genomic analysis to characterize unisexual *Ambystoma* populations across preserved natural areas
+-   Executed DNA extraction and PCR amplification to characterize genomic diversity across three protected sites
 
 **Skills demonstrated:** amphibian identification · field sampling · basic genomics workflows · laboratory techniques · data organization · research collaboration
 

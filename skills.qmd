@@ -34,8 +34,10 @@ title: "Field, Lab, Technical, & Communication Skills"
 -   Data analysis and visualization in **R**
 -   Reproducible research with **Quarto** and **R Markdown**
 -   Version control using **Git** and **GitHub**
--   Introductory GIS mapping and spatial analysis with **ArcGIS Pro**
--   Introductory ISO-compliant life cycle assessment (LCA)
+-   GIS mapping and spatial analysis with **ArcGIS Pro**
+-   Watershed hydrology modeling with **HEC-HMS**
+-   Environmental impact analysis under **NEPA**
+-   ISO-compliant life cycle assessment (LCA) using **openLCA**
 -   Data organization and documentation
 -   Figure and infographic development
 
@@ -43,6 +45,7 @@ title: "Field, Lab, Technical, & Communication Skills"
 
 ## Communication & Education Skills
 
+-   Technical report and deliverable preparation for agency and conservation stakeholders
 -   Scientific writing and peer-reviewed publication
 -   Science communication for non-technical audiences
 -   Environmental education and outreach
