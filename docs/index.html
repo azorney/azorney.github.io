@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,13 +33,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./photos/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e83117e711fad372bcb8c8022997a9a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-acb86da7cc94e534617b9af23b514896.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,6 +80,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Anthony Zorney</span>
     </a>
@@ -150,13 +153,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><em>Environmental biologist bridging ecological research, data analysis, and conservation practice.</em></p>
+<p><em>Environmental biologist and PSM candidate seeking roles in ecological restoration, environmental monitoring, and permitting and compliance.</em></p>
 <p><strong>About me</strong></p>
-<p>I am an environmental biologist with a strong interest in connecting scientific research to practical conservation and ecosystem management. I hold a Master’s degree in Biology and have hands-on experience in both field and laboratory settings, including species identification, water quality assessment, habitat surveys, and ecological monitoring.</p>
-<p>My research background spans fish and salamander population studies, snake behavioral ecology, and freshwater quality analysis. These projects have strengthened my ability to design and carry out environmental assessments and translate data into meaningful insights for conservation and policy.</p>
-<p>Beyond research, I enjoy communicating science to a wide range of audiences and have experience presenting findings to students and community groups. I am seeking opportunities in environmental consulting, ecological research, and conservation initiatives where I can apply my skills to protecting biodiversity in collaborative, community-focused settings.</p>
+<p>I am an environmental biologist with applied field experience in stream habitat assessment, freshwater ecology, and species surveys, currently completing a Professional Science Master’s degree in Ecosystem Science and Sustainability at Colorado State University. My graduate training spans watershed modeling, GIS-based water resources analysis, life cycle assessment, and NEPA-based environmental impact analysis, building on a foundation of field and laboratory work that includes electrofishing surveys, water quality monitoring, and protected species assessments conducted in collaboration with the Michigan Department of Natural Resources.</p>
+<p>My research background includes fish and salamander population studies, freshwater quality analysis, and molecular conservation work, with findings contributing to a peer-reviewed publication and agency-facing management reports. I am comfortable designing and executing field surveys, analyzing ecological data in R, and translating results into technical documentation for conservation and management audiences.</p>
+<p>I am seeking roles in environmental consulting, ecological restoration and monitoring, and environmental permitting and compliance where I can apply both my field experience and my applied graduate training to meaningful environmental outcomes.</p>
 <hr>
-<p><em>You can explore my academic background, professional experience, and fieldwork skills using the navigation above. A selection of my wildlife photography is also available.</em></p>
 
 
 </main></div>
@@ -206,13 +208,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
